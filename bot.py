@@ -33,4 +33,4 @@ class MyClient(discord.Client):
             await message.channel.send(Random + " " + str(counter))
 
 client = MyClient()
-client.run('')
+client.run('enter token here')
